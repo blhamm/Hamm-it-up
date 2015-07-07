@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "y",
+  "authors": [
+    "blhamm <toby414@gmail.com>"
+  ],
+  "description": "Hamm-it-up.com",
+  "keywords": [
+    "face",
+    "painting"
+  ],
+  "license": "n",
+  "homepage": "hamm-it-up.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
