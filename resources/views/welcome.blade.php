@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Hamm-it-up</title>
 
-        <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 
         <style>
             html, body {
@@ -16,9 +16,14 @@
                 width: 100%;
                 display: table;
                 font-weight: 100;
-                font-family: 'Lato';
+                font-family: 'Amatic SC', cursive;
             }
-
+            h1 {
+                font-weight: 700;
+            }
+            p {
+                font-size: 24pt;
+            }
             .container {
                 text-align: center;
                 display: table-cell;
@@ -38,7 +43,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <h1 class="title">Hamm it up!</h1>
+                <p>We're currently under construction check back soon!</p>
             </div>
         </div>
     </body>
