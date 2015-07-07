@@ -38,12 +38,22 @@
             .title {
                 font-size: 96px;
             }
+
+            .pig {
+                width: 376px;
+                height: 377px;
+                background: url(/imgs/pig.jpg);
+                position: relative;
+               left: 80px;
+            }
         </style>
     </head>
     <body>
+
         <div class="container">
             <div class="content">
-                <h1 class="title">Hamm it up!</h1>
+                <div class="pig"></div>
+                <image src="/imgs/logo.jpg" width="529" height="195" alt="Hamm-it-up" />
                 <p>We're currently under construction check back soon!</p>
             </div>
         </div>
