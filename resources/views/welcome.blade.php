@@ -22,7 +22,7 @@
                 font-weight: 700;
             }
             p {
-                font-size: 24pt;
+                font-size: 48pt;
             }
             .container {
                 text-align: center;
@@ -40,11 +40,32 @@
             }
 
             .pig {
-                width: 376px;
-                height: 377px;
-                background: url(/imgs/pig.jpg);
-                position: relative;
-               left: 80px;
+                /*width: 376px;
+                height: 377px;*/
+                width: 50%;
+                height: 30%;
+                background: url(/imgs/pig.jpg) no-repeat;
+                background-size: contain;
+                position: absolute;
+                left: -60px;
+                bottom: -20px;
+            }
+             @media only screen 
+                and (min-device-width: 320px) 
+                and (max-device-width: 568px)
+                and (-webkit-min-device-pixel-ratio: 2)
+                and (orientation: portrait) {
+                    .pig {
+                    /*width: 376px;
+                    height: 377px;*/
+                    width: 50%;
+                    height: 30%;
+                    background: url(/imgs/pig.jpg) no-repeat;
+                    background-size: contain;
+                    position: absolute;
+                    left: -105px;
+                    top: -80px;
+                }
             }
         </style>
         
@@ -54,8 +75,16 @@
         <div class="container">
             <div class="content">
                 <div class="pig"></div>
-                <image src="/imgs/logo.jpg" width="529" height="195" alt="Hamm-it-up" />
+                <img src="/imgs/logo.jpg" width="100%" height="auto" alt="Hamm-it-up" />
                 <p>We're currently under construction check back soon!</p>
+                <a href="https://www.facebook.com/HammItUp/"> 
+                    <img 
+                        src="https://thecliparts.com/wp-content/uploads/2016/05/free-facebook-clipart.png" 
+                        alt="Hamm-It-Up Facebook"
+                        width="25%"
+                        height="auto"
+                    >
+                </a>
             </div>
         </div>
     </body>
