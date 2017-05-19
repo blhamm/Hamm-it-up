@@ -23,6 +23,7 @@
             }
             p {
                 font-size: 48pt;
+                padding: 0 10% 0 10%;
             }
             .container {
                 text-align: center;
@@ -76,12 +77,12 @@
             <div class="content">
                 <div class="pig"></div>
                 <img src="/imgs/logo.jpg" width="100%" height="auto" alt="Hamm-it-up" />
-                <p>We're currently under construction check back soon!</p>
+                <p>We're currently under construction check back soon! In the meantime check out our awesomeness on Facbook below!</p>
                 <a href="https://www.facebook.com/HammItUp/"> 
                     <img 
                         src="https://thecliparts.com/wp-content/uploads/2016/05/free-facebook-clipart.png" 
                         alt="Hamm-It-Up Facebook"
-                        width="25%"
+                        width="15%"
                         height="auto"
                     >
                 </a>
